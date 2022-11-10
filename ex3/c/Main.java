@@ -13,6 +13,7 @@ public class Main {
             threads.add(thread);
         }
 
+
         for (Thread thread : threads) {
             thread.start();
         }
